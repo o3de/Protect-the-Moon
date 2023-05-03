@@ -1,0 +1,892 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Enemy",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 13074985575472827475
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 15629076510882897254
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 4581861578000424916,
+                "Child Entity Order": [
+                    "Entity_[106508241774003]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 3567777200305785054
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 4746803887314467803
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 16683411305835344499
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 2554870168138343799
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 14367924545256949898
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 17675770921559517029
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 5141648006832933424,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[106508241774003]": {
+            "Id": "Entity_[106508241774003]",
+            "Name": "Enemy",
+            "Components": {
+                "Component_[10281710795407491088]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10281710795407491088
+                },
+                "Component_[10657387527721614966]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10657387527721614966,
+                    "Child Entity Order": [
+                        "Entity_[106512536741299]"
+                    ]
+                },
+                "Component_[11335288979334246941]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11335288979334246941
+                },
+                "Component_[13604058526086959720]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13604058526086959720,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 3.0
+                    }
+                },
+                "Component_[13780198675620304489]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 13780198675620304489,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{6DE64E86-00AE-5873-82B5-FCC351567094}",
+                            "path": "Assets/Scripts/EnemyMove.scriptcanvas"
+                        },
+                        "sourceName": "EnemyMove.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{6DE64E86-00AE-5873-82B5-FCC351567094}",
+                                "path": "Assets/Scripts/EnemyMove.scriptcanvas"
+                            },
+                            "variables": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{295F3476-4E49-47B6-9C8A-8DF6E19C8A16}"
+                                    },
+                                    "VariableName": "MoveY",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{4E2645FE-845E-4BB7-9CD8-F4517153C0D6}"
+                                    },
+                                    "VariableName": "ResetRowTime",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{A011B2C7-1B70-40E6-911D-12E7CC4676F1}"
+                                    },
+                                    "VariableName": "DelayX",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{AEB37DA8-130D-4F00-8E4B-0132F846DEE6}"
+                                    },
+                                    "VariableName": "MoveX",
+                                    "InitialValueSource": 1
+                                }
+                            ],
+                            "overrides": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 2.0
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{295F3476-4E49-47B6-9C8A-8DF6E19C8A16}"
+                                    },
+                                    "VariableName": "MoveY",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 10.0
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{4E2645FE-845E-4BB7-9CD8-F4517153C0D6}"
+                                    },
+                                    "VariableName": "ResetRowTime",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 1.0
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{A011B2C7-1B70-40E6-911D-12E7CC4676F1}"
+                                    },
+                                    "VariableName": "DelayX",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 1.0
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{AEB37DA8-130D-4F00-8E4B-0132F846DEE6}"
+                                    },
+                                    "VariableName": "MoveX",
+                                    "InitialValueSource": 1
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[2344010457711960331]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2344010457711960331,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13604058526086959720
+                        },
+                        {
+                            "ComponentId": 13780198675620304489,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[4177940031380219258]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4177940031380219258
+                },
+                "Component_[620381225757884388]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 620381225757884388
+                },
+                "Component_[6326283938733388284]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 6326283938733388284
+                },
+                "Component_[9721516486617601115]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9721516486617601115
+                }
+            }
+        },
+        "Entity_[106512536741299]": {
+            "Id": "Entity_[106512536741299]",
+            "Name": "EnemyAlien",
+            "Components": {
+                "Component_[11201748477233702025]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 11201748477233702025,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{129CF9BE-B74F-5741-8ACE-A552108DF242}",
+                            "path": "Assets/Scripts/Enemy.scriptcanvas"
+                        },
+                        "sourceName": "Enemy.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{129CF9BE-B74F-5741-8ACE-A552108DF242}",
+                                "path": "Assets/Scripts/Enemy.scriptcanvas"
+                            },
+                            "variables": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": ""
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{00966A14-D21C-4846-BE0A-1776AB807373}"
+                                    },
+                                    "VariableName": "FirePoint_Entity",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 5
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                        "value": "Loopy_mat"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{02D427E8-89AA-4175-9EAB-E86C18B06FBA}"
+                                    },
+                                    "VariableName": "MaterialName",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{103E901D-7122-4477-9F28-76D0DAA9C7DC}"
+                                    },
+                                    "VariableName": "RandomMax",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 4,
+                                            "m_azType": "{EB603581-4654-4C17-B6DE-AE61E79EDA97}"
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "AZ::Render::MaterialAssignmentId"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{13818FF4-446D-4371-A62D-273FD4038125}"
+                                    },
+                                    "VariableName": "Mat",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{7AF8BEFD-63C1-4126-A321-22F26FE15C71}"
+                                    },
+                                    "VariableName": "GlowIntensity",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{7F96B410-2472-4260-A65A-2654BC505F50}"
+                                    },
+                                    "VariableName": "RandomMin",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{9B31FBD5-0C03-4885-9BC3-DE3C1FBAC11E}"
+                                    },
+                                    "VariableName": "points",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{A6ACD74E-648C-4406-8804-68E20A63B597}"
+                                    },
+                                    "VariableName": "GlowDelay",
+                                    "InitialValueSource": 1
+                                }
+                            ],
+                            "overrides": [
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 1
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "EntityId",
+                                        "value": "Entity_[106516831708595]"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{00966A14-D21C-4846-BE0A-1776AB807373}"
+                                    },
+                                    "VariableName": "FirePoint_Entity",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 5
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                        "value": "Alien_MTRL"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{02D427E8-89AA-4175-9EAB-E86C18B06FBA}"
+                                    },
+                                    "VariableName": "MaterialName",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 5.0
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{103E901D-7122-4477-9F28-76D0DAA9C7DC}"
+                                    },
+                                    "VariableName": "RandomMax",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 4,
+                                            "m_azType": "{EB603581-4654-4C17-B6DE-AE61E79EDA97}"
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "AZ::Render::MaterialAssignmentId"
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{13818FF4-446D-4371-A62D-273FD4038125}"
+                                    },
+                                    "VariableName": "Mat",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.3
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{7AF8BEFD-63C1-4126-A321-22F26FE15C71}"
+                                    },
+                                    "VariableName": "GlowIntensity",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 3.0
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{7F96B410-2472-4260-A65A-2654BC505F50}"
+                                    },
+                                    "VariableName": "RandomMin",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 10.0
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{9B31FBD5-0C03-4885-9BC3-DE3C1FBAC11E}"
+                                    },
+                                    "VariableName": "points",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "isOverloadedStorage": false,
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 1.0
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{A6ACD74E-648C-4406-8804-68E20A63B597}"
+                                    },
+                                    "VariableName": "GlowDelay",
+                                    "InitialValueSource": 1
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[12627483927936273341]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12627483927936273341
+                },
+                "Component_[12883931776448639958]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12883931776448639958,
+                    "Parent Entity": "Entity_[106508241774003]",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[13181014811258209132]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13181014811258209132
+                },
+                "Component_[16208786021857869980]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16208786021857869980
+                },
+                "Component_[16648179114471387120]": {
+                    "$type": "EditorAnimGraphComponent",
+                    "Id": 16648179114471387120,
+                    "AnimGraphAsset": {
+                        "assetId": {
+                            "guid": "{C0FA6F56-8F28-5241-A4E5-C8CBBF0CB953}"
+                        },
+                        "assetHint": "assets/enemy.animgraph"
+                    },
+                    "MotionSetAsset": {
+                        "assetId": {
+                            "guid": "{73D9988C-BECE-5D46-8E5E-F3C5D95AE4E0}"
+                        },
+                        "assetHint": "assets/enemy.motionset"
+                    },
+                    "ActiveMotionSetName": "Default",
+                    "ParameterDefaults": {
+                        "Parameters": [
+                            {
+                                "$type": "AzFramework::ScriptPropertyBoolean",
+                                "id": 2375121493,
+                                "name": "Walk"
+                            }
+                        ]
+                    }
+                },
+                "Component_[16889375623225500398]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16889375623225500398
+                },
+                "Component_[1948907073954706076]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1948907073954706076,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 154849256
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F54A5551-FA6B-515C-A694-F09194F61C2F}"
+                                            },
+                                            "assetHint": "assets/models/alien/alien_mtrl.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[2250833936935593451]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2250833936935593451,
+                    "Child Entity Order": [
+                        "Entity_[106516831708595]",
+                        "Entity_[106521126675891]"
+                    ]
+                },
+                "Component_[3442000249344538768]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3442000249344538768
+                },
+                "Component_[4387348884263500970]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 4387348884263500970,
+                    "ColliderConfiguration": {
+                        "CollisionLayer": {
+                            "Index": 1
+                        },
+                        "CollisionGroupId": {
+                            "GroupId": "{4440133E-CBA7-4B53-97C8-2CA73AB0C9A3}"
+                        },
+                        "Trigger": true,
+                        "Position": [
+                            0.0,
+                            0.5223603248596191,
+                            1.0370519161224365
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object",
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{07918D02-A9A8-5954-8E5D-C2FE080F8010}",
+                                            "subId": 1
+                                        },
+                                        "assetHint": "physx/plastic.physicsmaterial"
+                                    }
+                                }
+                            ]
+                        },
+                        "ColliderTag": "Enemy"
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 0,
+                        "Sphere": {
+                            "Scale": [
+                                3.0,
+                                3.0,
+                                3.0
+                            ],
+                            "Radius": 1.5
+                        }
+                    }
+                },
+                "Component_[5395836855082402642]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5395836855082402642
+                },
+                "Component_[617962143224975841]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 617962143224975841,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{D07EF73A-5F64-585C-8CEE-529DD0EDC737}",
+                            "subId": 2389346682
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "assets/models/alien/alien_tpose.actor"
+                    },
+                    "AttachmentTarget": ""
+                },
+                "Component_[8639621982368930343]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8639621982368930343
+                },
+                "EditorCharacterControllerComponent": {
+                    "$type": "EditorCharacterControllerComponent",
+                    "Id": 345320304499169190,
+                    "Configuration": {
+                        "entityId": "",
+                        "CollisionLayer": {
+                            "Index": 1
+                        },
+                        "CollisionGroupId": {
+                            "GroupId": "{4440133E-CBA7-4B53-97C8-2CA73AB0C9A3}"
+                        },
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "ColliderTag": "Enemy"
+                    }
+                }
+            }
+        },
+        "Entity_[106516831708595]": {
+            "Id": "Entity_[106516831708595]",
+            "Name": "FirePoint",
+            "Components": {
+                "Component_[12041679045891067052]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 12041679045891067052
+                },
+                "Component_[12865904167088355586]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12865904167088355586
+                },
+                "Component_[15420237442874544828]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15420237442874544828
+                },
+                "Component_[16912978595986478392]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16912978595986478392
+                },
+                "Component_[17293143644032825516]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17293143644032825516,
+                    "Parent Entity": "Entity_[106512536741299]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.23412847518920898,
+                            1.2662039995193481,
+                            1.395711898803711
+                        ],
+                        "UniformScale": 2.0
+                    }
+                },
+                "Component_[18129258514447718835]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 18129258514447718835
+                },
+                "Component_[5137106602551106760]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5137106602551106760
+                },
+                "Component_[7943964359182110431]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 7943964359182110431
+                },
+                "Component_[9840701874045837387]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9840701874045837387
+                }
+            }
+        },
+        "Entity_[106521126675891]": {
+            "Id": "Entity_[106521126675891]",
+            "Name": "RayGun",
+            "Components": {
+                "Component_[10403579510899755138]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10403579510899755138
+                },
+                "Component_[13832919780557052942]": {
+                    "$type": "EditorAttachmentComponent",
+                    "Id": 13832919780557052942,
+                    "Target ID": "Entity_[106512536741299]",
+                    "Target Bone Name": "Spine1",
+                    "Position Offset": [
+                        -0.02000000700354576,
+                        1.25,
+                        1.7400000095367432
+                    ],
+                    "Rotation Offset": [
+                        45.06999969482422,
+                        0.10999999940395355,
+                        0.0
+                    ],
+                    "Uniform Scale Offset": 2.0
+                },
+                "Component_[14690040810353578669]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14690040810353578669
+                },
+                "Component_[15062900653836785652]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15062900653836785652
+                },
+                "Component_[16493189831307258613]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16493189831307258613
+                },
+                "Component_[1652511775232833981]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1652511775232833981
+                },
+                "Component_[17053773835599502510]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17053773835599502510
+                },
+                "Component_[17849963685703317692]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 17849963685703317692,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{2A83396C-16CA-53DE-B534-726BD1326B13}",
+                            "subId": 2366096754
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "assets/models/alien/raygun.actor"
+                    },
+                    "AttachmentTarget": ""
+                },
+                "Component_[4571000867582339735]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4571000867582339735,
+                    "Parent Entity": "Entity_[106512536741299]",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.006694181822240353,
+                            0.3180370330810547,
+                            2.0227856636047363
+                        ],
+                        "Rotate": [
+                            51.69561767578125,
+                            0.10999999940395355,
+                            0.0
+                        ],
+                        "UniformScale": 0.6666666865348816
+                    }
+                },
+                "Component_[9638919491972105009]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9638919491972105009
+                },
+                "Component_[9862533125206158511]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9862533125206158511
+                }
+            }
+        }
+    }
+}

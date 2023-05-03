@@ -1,0 +1,253 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Rocket",
+        "Components": {
+            "Component_[1056177201357758440]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 1056177201357758440
+            },
+            "Component_[12711675751839038454]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 12711675751839038454
+            },
+            "Component_[14823134926351686319]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 14823134926351686319
+            },
+            "Component_[17492599314963067936]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 17492599314963067936
+            },
+            "Component_[18138953819998678062]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 18138953819998678062
+            },
+            "Component_[1858776344384196208]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 1858776344384196208
+            },
+            "Component_[2571118960506154631]": {
+                "$type": "EditorLockComponent",
+                "Id": 2571118960506154631
+            },
+            "Component_[3902426321062609748]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 3902426321062609748,
+                "Child Entity Order": [
+                    "Entity_[62261352641839]"
+                ]
+            },
+            "Component_[6461718140489688310]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 6461718140489688310
+            },
+            "Component_[7831896004711083823]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 7831896004711083823,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[62261352641839]": {
+            "Id": "Entity_[62261352641839]",
+            "Name": "Rocket",
+            "Components": {
+                "Component_[10209726214626729767]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10209726214626729767
+                },
+                "Component_[11223528585487521037]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11223528585487521037,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14324322911029465975
+                        },
+                        {
+                            "ComponentId": 10301201145714501096,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8224201704672262431,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 16575705417632683045,
+                            "SortIndex": 3
+                        },
+                        {
+                            "ComponentId": 8245865441084198553,
+                            "SortIndex": 4
+                        },
+                        {
+                            "ComponentId": 14902634653827270974,
+                            "SortIndex": 5
+                        }
+                    ]
+                },
+                "Component_[14324322911029465975]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14324322911029465975,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[15127448076704114565]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15127448076704114565
+                },
+                "Component_[1633268656886689824]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1633268656886689824,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3405250235
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{81593969-DF21-5B68-9991-12096A1885D9}"
+                                            },
+                                            "assetHint": "assets/models/missile_missile_mat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.004562447778880596,
+                                                    0.26086825132369995,
+                                                    0.27881285548210144,
+                                                    1.0
+                                                ]
+                                            },
+                                            "emissive.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    0.0,
+                                                    1.0,
+                                                    0.40198367834091187,
+                                                    1.0
+                                                ]
+                                            },
+                                            "emissive.enable": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 5.0
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[17950764749151310230]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17950764749151310230
+                },
+                "Component_[2362480427522084753]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2362480427522084753
+                },
+                "Component_[2490414568865705228]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 2490414568865705228,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{2C15D88E-E779-5C49-86D3-1E32F377CCD4}",
+                            "path": "Assets/Scripts/Rocket.scriptcanvas"
+                        },
+                        "sourceName": "Rocket.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{2C15D88E-E779-5C49-86D3-1E32F377CCD4}",
+                                "path": "Assets/Scripts/Rocket.scriptcanvas"
+                            }
+                        }
+                    }
+                },
+                "Component_[4933482901152079369]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4933482901152079369
+                },
+                "Component_[5763744939095563678]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 5763744939095563678,
+                    "ColliderConfiguration": {
+                        "CollisionLayer": {
+                            "Index": 2
+                        },
+                        "CollisionGroupId": {
+                            "GroupId": "{F6511F6F-295A-4F58-BBC6-8D67E9AD4A78}"
+                        },
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "ColliderTag": "Rocket"
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 0,
+                        "Sphere": {
+                            "Radius": 0.10000000149011612
+                        }
+                    }
+                },
+                "Component_[645281242167537950]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 645281242167537950
+                },
+                "Component_[8245865441084198553]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8245865441084198553,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{8CC9B575-39D7-5914-AC42-92A77833E63A}",
+                                    "subId": 268692035
+                                },
+                                "assetHint": "models/diffuseprobesphere.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[918881458287714912]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 918881458287714912
+                },
+                "Component_[9334473303127098764]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 9334473303127098764,
+                    "Configuration": {
+                        "entityId": "",
+                        "Gravity Enabled": false,
+                        "CCD Enabled": true,
+                        "Compute Mass": false,
+                        "Mass": 2.0,
+                        "Inertia tensor": [
+                            0.00800000037997961,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.00800000037997961,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.00800000037997961
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

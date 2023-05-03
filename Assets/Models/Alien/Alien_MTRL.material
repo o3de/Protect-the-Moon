@@ -1,0 +1,27 @@
+{
+    "materialType": "@projectroot@/Cache/Intermediate Assets/materials/types/standardpbr_generated.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "Low_defaultMat_Base_color.png",
+        "emissive.color": [
+            0.002243076218292117,
+            0.29372090101242065,
+            0.0,
+            1.0
+        ],
+        "emissive.enable": true,
+        "emissive.intensity": 0.0,
+        "general.doubleSided": true,
+        "normal.flipY": true,
+        "normal.textureMap": "Low_defaultMat_Normal_OpenGL.png",
+        "opacity.factor": 1.0,
+        "roughness.textureMap": "Low_defaultMat_Roughness.png"
+    }
+}

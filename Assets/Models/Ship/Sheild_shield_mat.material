@@ -1,0 +1,26 @@
+{
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.0,
+            0.661875307559967,
+            1.0,
+            1.0
+        ],
+        "clearCoat.enable": true,
+        "clearCoat.roughness": 0.36000001430511475,
+        "emissive.color": [
+            0.0,
+            0.40198367834091187,
+            1.0,
+            1.0
+        ],
+        "emissive.enable": true,
+        "general.doubleSided": true,
+        "opacity.factor": 1.0,
+        "opacity.mode": "TintedTransparent",
+        "roughness.factor": 0.0,
+        "specularF0.factor": 0.07000000029802322
+    }
+}

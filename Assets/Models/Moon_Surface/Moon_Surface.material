@@ -1,0 +1,23 @@
+{
+    "materialType": "@projectroot@/Cache/Intermediate Assets/materials/types/standardpbr_generated.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.4000000059604645,
+            0.4000000059604645,
+            0.4000000059604645,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "lambert1_Base_color.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "normal.factor": 1.9600000381469727,
+        "normal.textureMap": "lambert1_Normal_OpenGL.png",
+        "opacity.factor": 1.0
+    }
+}

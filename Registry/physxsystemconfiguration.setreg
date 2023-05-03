@@ -1,0 +1,134 @@
+{
+    "Amazon": {
+        "Gems": {
+            "PhysX": {
+                "PhysXSystemConfiguration": {
+                    "CollisionConfig": {
+                        "Layers": {
+                            "LayerNames": [
+                                "Default",
+                                "Enemy",
+                                "Rocket",
+                                "Missile",
+                                "Player",
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
+                        },
+                        "Groups": {
+                            "GroupPresets": [
+                                {
+                                    "Name": "All",
+                                    "ReadOnly": true
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{5568272C-053C-4331-B61D-AC4975776567}"
+                                    },
+                                    "Name": "None",
+                                    "Group": {
+                                        "Mask": 0
+                                    },
+                                    "ReadOnly": true
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{DEE1B3E5-BCA4-4F88-B299-F4C4E4052CCD}"
+                                    },
+                                    "Name": "Player",
+                                    "Group": {
+                                        "Mask": 18446744073709551592
+                                    }
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{4440133E-CBA7-4B53-97C8-2CA73AB0C9A3}"
+                                    },
+                                    "Name": "Enemy",
+                                    "Group": {
+                                        "Mask": 18446744073709551588
+                                    }
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{777E2561-353B-48B9-AE55-DF0E354F249D}"
+                                    },
+                                    "Name": "EnemyMissile",
+                                    "Group": {
+                                        "Mask": 18446744073709551600
+                                    }
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{F6511F6F-295A-4F58-BBC6-8D67E9AD4A78}"
+                                    },
+                                    "Name": "PlayerRocket",
+                                    "Group": {
+                                        "Mask": 18446744073709551586
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder Protect-the-Moon/Assets": {
+                    "watch": "@GEMROOT:Protect-the-Moon@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder Protect-the-Moon/Registry": {
+                    "watch": "@GEMROOT:Protect-the-Moon@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}

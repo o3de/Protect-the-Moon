@@ -1,0 +1,212 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Missile",
+        "Components": {
+            "Component_[11723153496845187101]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 11723153496845187101
+            },
+            "Component_[13960305945646157869]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 13960305945646157869
+            },
+            "Component_[14097442193704350622]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 14097442193704350622
+            },
+            "Component_[14263081184405370968]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 14263081184405370968
+            },
+            "Component_[312337595896593944]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 312337595896593944,
+                "Child Entity Order": [
+                    "Entity_[1439390536300]"
+                ]
+            },
+            "Component_[4420974892121755181]": {
+                "$type": "EditorLockComponent",
+                "Id": 4420974892121755181
+            },
+            "Component_[4999592326634692001]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 4999592326634692001
+            },
+            "Component_[7197714244140951127]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7197714244140951127
+            },
+            "Component_[7766841404087157423]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 7766841404087157423,
+                "Parent Entity": ""
+            },
+            "Component_[8999454617505990286]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 8999454617505990286
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1439390536300]": {
+            "Id": "Entity_[1439390536300]",
+            "Name": "Missile",
+            "Components": {
+                "Component_[12334227355071280194]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12334227355071280194
+                },
+                "Component_[12398732933388926535]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12398732933388926535
+                },
+                "Component_[12599978150452103913]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12599978150452103913,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 17777631469933084512
+                        },
+                        {
+                            "ComponentId": 6445733406388558216,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8645562527175314114,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 13182630551687603208,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[13182630551687603208]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 13182630551687603208,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2790997655
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{81593969-DF21-5B68-9991-12096A1885D9}"
+                                            },
+                                            "assetHint": "assets/models/missile_missile_mat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[1589295748450720668]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1589295748450720668
+                },
+                "Component_[17777631469933084512]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17777631469933084512,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[2536514871972718952]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2536514871972718952
+                },
+                "Component_[2571076023426592520]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2571076023426592520
+                },
+                "Component_[2967596308934862253]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 2967596308934862253,
+                    "ColliderConfiguration": {
+                        "CollisionLayer": {
+                            "Index": 3
+                        },
+                        "CollisionGroupId": {
+                            "GroupId": "{777E2561-353B-48B9-AE55-DF0E354F249D}"
+                        },
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 0
+                    }
+                },
+                "Component_[6445733406388558216]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 6445733406388558216,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{3207991C-20E0-5D25-A047-0B5AB71B7CD7}",
+                            "path": "Assets/Scripts/Missile.scriptcanvas"
+                        },
+                        "sourceName": "Missile.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{3207991C-20E0-5D25-A047-0B5AB71B7CD7}",
+                                "path": "Assets/Scripts/Missile.scriptcanvas"
+                            }
+                        }
+                    }
+                },
+                "Component_[8076796095869971071]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8076796095869971071
+                },
+                "Component_[8162533305820114547]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 8162533305820114547,
+                    "Configuration": {
+                        "entityId": "",
+                        "Gravity Enabled": false,
+                        "CCD Enabled": true,
+                        "Compute Mass": false,
+                        "Inertia tensor": [
+                            0.10000000149011612,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.10000000149011612,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.10000000149011612
+                        ]
+                    }
+                },
+                "Component_[8230820978775602020]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8230820978775602020
+                },
+                "Component_[8645562527175314114]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8645562527175314114,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{66A4D768-20A6-5F86-A9D8-03FDDD7504CA}",
+                                    "subId": 278427767
+                                },
+                                "assetHint": "assets/models/missile.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

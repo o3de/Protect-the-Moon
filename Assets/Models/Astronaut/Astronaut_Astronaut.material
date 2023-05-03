@@ -1,0 +1,24 @@
+{
+    "materialType": "@projectroot@/Cache/Intermediate Assets/materials/types/standardpbr_generated.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "Astronaut_MTRL_Base_color.png",
+        "emissive.color": [
+            0.2236057072877884,
+            0.06611733883619308,
+            0.06611733883619308,
+            1.0
+        ],
+        "emissive.enable": true,
+        "emissive.intensity": 0.0,
+        "normal.textureMap": "Astronaut_MTRL_Normal_OpenGL.png",
+        "opacity.factor": 1.0
+    }
+}

@@ -1,0 +1,228 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Moon_Surface",
+        "Components": {
+            "Component_[10252036397708235502]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 10252036397708235502
+            },
+            "Component_[12247375975960958244]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12247375975960958244
+            },
+            "Component_[12723024553185844261]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 12723024553185844261
+            },
+            "Component_[15579708139936356509]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 15579708139936356509
+            },
+            "Component_[2119703164066928329]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 2119703164066928329
+            },
+            "Component_[3148084220471145207]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 3148084220471145207,
+                "Child Entity Order": [
+                    "Entity_[2878624748674]"
+                ]
+            },
+            "Component_[418981116015305033]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 418981116015305033
+            },
+            "Component_[4417426050675141301]": {
+                "$type": "EditorLockComponent",
+                "Id": 4417426050675141301
+            },
+            "Component_[4927668306990588799]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 4927668306990588799
+            },
+            "Component_[9551585092921057553]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 9551585092921057553,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2878624748674]": {
+            "Id": "Entity_[2878624748674]",
+            "Name": "Moon_Surface_fbx",
+            "Components": {
+                "Component_[10334573951338900691]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10334573951338900691,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[13810886995033471099]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13810886995033471099,
+                    "PendingComponents": [
+                        {
+                            "$type": "EditorMaterialComponent",
+                            "Id": 14134573166921861843
+                        }
+                    ]
+                },
+                "Component_[13879409952162809280]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13879409952162809280
+                },
+                "Component_[14184735556232431310]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14184735556232431310
+                },
+                "Component_[15719101678979713186]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15719101678979713186
+                },
+                "Component_[16831371908541114145]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16831371908541114145
+                },
+                "Component_[3069490902797291844]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3069490902797291844
+                },
+                "Component_[3905468445752865192]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3905468445752865192,
+                    "Child Entity Order": [
+                        "Entity_[2882919715970]"
+                    ]
+                },
+                "Component_[6210766403541905232]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6210766403541905232,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10334573951338900691
+                        },
+                        {
+                            "ComponentId": 14134573166921861843,
+                            "SortIndex": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "Entity_[2882919715970]": {
+            "Id": "Entity_[2882919715970]",
+            "Name": "GroundPlane",
+            "Components": {
+                "Component_[11513793470551494495]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11513793470551494495
+                },
+                "Component_[1213029189573881854]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 1213029189573881854,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{BA6C0833-26A5-56CE-AD38-F7224DF1071A}",
+                                    "subId": 272158726
+                                },
+                                "assetHint": "assets/models/moon_surface/default_moon_surface_615a1d07_081a_59f2_8b84_07b98e8b6c77_.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[13064434161443753283]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13064434161443753283
+                },
+                "Component_[13185354758029634485]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13185354758029634485
+                },
+                "Component_[13482999454871409705]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13482999454871409705
+                },
+                "Component_[14209765329697331456]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14209765329697331456
+                },
+                "Component_[2732866115750362984]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2732866115750362984,
+                    "Parent Entity": "Entity_[2878624748674]",
+                    "Transform Data": {
+                        "Translate": [
+                            -1.8056631088256836,
+                            -7.44487190246582,
+                            0.0
+                        ],
+                        "UniformScale": 0.009999999776482582
+                    }
+                },
+                "Component_[3518165327466301106]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3518165327466301106
+                },
+                "Component_[6321638197693618824]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6321638197693618824
+                },
+                "Component_[6346163195665252039]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6346163195665252039,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 902256226
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{6CDFD77A-6278-5BEE-97B7-C94FD9733A3C}"
+                                            },
+                                            "assetHint": "assets/models/moon_surface/moon_surface.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureMap": {
+                                                "$type": "AssetId",
+                                                "Value": {
+                                                    "guid": "{FAE2C507-E2E6-58BF-9D30-A46D60BEA426}",
+                                                    "subId": 1000
+                                                }
+                                            },
+                                            "normal.factor": {
+                                                "$type": "float",
+                                                "Value": 1.9600000381469727
+                                            },
+                                            "normal.flipX": {
+                                                "$type": "bool",
+                                                "Value": false
+                                            },
+                                            "normal.textureMap": {
+                                                "$type": "AssetId",
+                                                "Value": {
+                                                    "guid": "{E30B000D-38DD-50E4-A097-D60EDBB6478F}",
+                                                    "subId": 1000
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8622650690721599685]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8622650690721599685
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,189 @@
+{
+    "values": [
+        {
+            "$type": "ActorGroup",
+            "name": "Alien_Tpose",
+            "selectedRootBone": "RootNode",
+            "id": "{7A896A8E-8181-539C-AE68-1E0039FEA203}",
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MetaDataRule",
+                        "metaData": "AdjustActor -actorID $(ACTORID) -name \"Alien_Tpose\"\nActorSetCollisionMeshes -actorID $(ACTORID) -lod 0 -nodeList \"\"\nAdjustActor -actorID $(ACTORID) -nodesExcludedFromBounds \"\" -nodeAction \"select\"\nAdjustActor -actorID $(ACTORID) -nodeAction \"replace\" -attachmentNodes \"\"\nAdjustActor -actorID $(ACTORID) -motionExtractionNodeName \"RootNode\"\nAdjustActor -actorID $(ACTORID) -mirrorSetup \"\"\n"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{6B48E8FA-B9F6-5AC7-9214-08EA2FBB1139}",
+            "name": "Alien_Tpose",
+            "NodeSelectionList": {
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Alien",
+                    "RootNode.Hips",
+                    "RootNode.Hips.Spine",
+                    "RootNode.Hips.LeftUpLeg",
+                    "RootNode.Hips.RightUpLeg",
+                    "RootNode.Hips.Spine.Spine1",
+                    "RootNode.Hips.LeftUpLeg.LeftLeg",
+                    "RootNode.Hips.RightUpLeg.RightLeg",
+                    "RootNode.Hips.Spine.Spine1.Spine2",
+                    "RootNode.Hips.LeftUpLeg.LeftLeg.LeftFoot",
+                    "RootNode.Hips.RightUpLeg.RightLeg.RightFoot",
+                    "RootNode.Hips.Spine.Spine1.Spine2.Neck",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder",
+                    "RootNode.Hips.LeftUpLeg.LeftLeg.LeftFoot.LeftToeBase",
+                    "RootNode.Hips.RightUpLeg.RightLeg.RightFoot.RightToeBase",
+                    "RootNode.Hips.Spine.Spine1.Spine2.Neck.Head",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm",
+                    "RootNode.Hips.LeftUpLeg.LeftLeg.LeftFoot.LeftToeBase.LeftToe_End",
+                    "RootNode.Hips.RightUpLeg.RightLeg.RightFoot.RightToeBase.RightToe_End",
+                    "RootNode.Hips.Spine.Spine1.Spine2.Neck.Head.HeadTop_End",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandThumb1",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandIndex1",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandMiddle1",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandRing1",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandPinky1",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandThumb1",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandIndex1",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandMiddle1",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandRing1",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandPinky1",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandThumb1.LeftHandThumb2",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandIndex1.LeftHandIndex2",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandMiddle1.LeftHandMiddle2",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandRing1.LeftHandRing2",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandPinky1.LeftHandPinky2",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandThumb1.RightHandThumb2",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandIndex1.RightHandIndex2",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandMiddle1.RightHandMiddle2",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandRing1.RightHandRing2",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandPinky1.RightHandPinky2",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandThumb1.LeftHandThumb2.LeftHandThumb3",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandIndex1.LeftHandIndex2.LeftHandIndex3",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandMiddle1.LeftHandMiddle2.LeftHandMiddle3",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandRing1.LeftHandRing2.LeftHandRing3",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandPinky1.LeftHandPinky2.LeftHandPinky3",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandThumb1.RightHandThumb2.RightHandThumb3",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandIndex1.RightHandIndex2.RightHandIndex3",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandMiddle1.RightHandMiddle2.RightHandMiddle3",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandRing1.RightHandRing2.RightHandRing3",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandPinky1.RightHandPinky2.RightHandPinky3",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandThumb1.LeftHandThumb2.LeftHandThumb3.LeftHandThumb4",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandIndex1.LeftHandIndex2.LeftHandIndex3.LeftHandIndex4",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandMiddle1.LeftHandMiddle2.LeftHandMiddle3.LeftHandMiddle4",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandRing1.LeftHandRing2.LeftHandRing3.LeftHandRing4",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandPinky1.LeftHandPinky2.LeftHandPinky3.LeftHandPinky4",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandThumb1.RightHandThumb2.RightHandThumb3.RightHandThumb4",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandIndex1.RightHandIndex2.RightHandIndex3.RightHandIndex4",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandMiddle1.RightHandMiddle2.RightHandMiddle3.RightHandMiddle4",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandRing1.RightHandRing2.RightHandRing3.RightHandRing4",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandPinky1.RightHandPinky2.RightHandPinky3.RightHandPinky4"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "Entire object"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Alien_Tpose",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Alien",
+                    "RootNode.Hips",
+                    "RootNode.Hips.Spine",
+                    "RootNode.Hips.LeftUpLeg",
+                    "RootNode.Hips.RightUpLeg",
+                    "RootNode.Hips.Spine.Spine1",
+                    "RootNode.Hips.LeftUpLeg.LeftLeg",
+                    "RootNode.Hips.RightUpLeg.RightLeg",
+                    "RootNode.Hips.Spine.Spine1.Spine2",
+                    "RootNode.Hips.LeftUpLeg.LeftLeg.LeftFoot",
+                    "RootNode.Hips.RightUpLeg.RightLeg.RightFoot",
+                    "RootNode.Hips.Spine.Spine1.Spine2.Neck",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder",
+                    "RootNode.Hips.LeftUpLeg.LeftLeg.LeftFoot.LeftToeBase",
+                    "RootNode.Hips.RightUpLeg.RightLeg.RightFoot.RightToeBase",
+                    "RootNode.Hips.Spine.Spine1.Spine2.Neck.Head",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm",
+                    "RootNode.Hips.LeftUpLeg.LeftLeg.LeftFoot.LeftToeBase.LeftToe_End",
+                    "RootNode.Hips.RightUpLeg.RightLeg.RightFoot.RightToeBase.RightToe_End",
+                    "RootNode.Hips.Spine.Spine1.Spine2.Neck.Head.HeadTop_End",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandThumb1",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandIndex1",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandMiddle1",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandRing1",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandPinky1",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandThumb1",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandIndex1",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandMiddle1",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandRing1",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandPinky1",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandThumb1.LeftHandThumb2",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandIndex1.LeftHandIndex2",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandMiddle1.LeftHandMiddle2",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandRing1.LeftHandRing2",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandPinky1.LeftHandPinky2",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandThumb1.RightHandThumb2",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandIndex1.RightHandIndex2",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandMiddle1.RightHandMiddle2",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandRing1.RightHandRing2",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandPinky1.RightHandPinky2",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandThumb1.LeftHandThumb2.LeftHandThumb3",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandIndex1.LeftHandIndex2.LeftHandIndex3",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandMiddle1.LeftHandMiddle2.LeftHandMiddle3",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandRing1.LeftHandRing2.LeftHandRing3",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandPinky1.LeftHandPinky2.LeftHandPinky3",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandThumb1.RightHandThumb2.RightHandThumb3",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandIndex1.RightHandIndex2.RightHandIndex3",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandMiddle1.RightHandMiddle2.RightHandMiddle3",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandRing1.RightHandRing2.RightHandRing3",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandPinky1.RightHandPinky2.RightHandPinky3",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandThumb1.LeftHandThumb2.LeftHandThumb3.LeftHandThumb4",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandIndex1.LeftHandIndex2.LeftHandIndex3.LeftHandIndex4",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandMiddle1.LeftHandMiddle2.LeftHandMiddle3.LeftHandMiddle4",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandRing1.LeftHandRing2.LeftHandRing3.LeftHandRing4",
+                    "RootNode.Hips.Spine.Spine1.Spine2.LeftShoulder.LeftArm.LeftForeArm.LeftHand.LeftHandPinky1.LeftHandPinky2.LeftHandPinky3.LeftHandPinky4",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandThumb1.RightHandThumb2.RightHandThumb3.RightHandThumb4",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandIndex1.RightHandIndex2.RightHandIndex3.RightHandIndex4",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandMiddle1.RightHandMiddle2.RightHandMiddle3.RightHandMiddle4",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandRing1.RightHandRing2.RightHandRing3.RightHandRing4",
+                    "RootNode.Hips.Spine.Spine1.Spine2.RightShoulder.RightArm.RightForeArm.RightHand.RightHandPinky1.RightHandPinky2.RightHandPinky3.RightHandPinky4"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "SkinRule"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{2AB598F8-D39F-5FC7-9873-5EB7CF5F5DCE}"
+        }
+    ]
+}

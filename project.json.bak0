@@ -1,0 +1,46 @@
+{
+    "project_name": "Protect-the-Moon",
+    "version": "1.0.0",
+    "project_id": "{92A07177-CB9C-49C0-B7EB-3729B0154A48}",
+    "origin": "The primary repo for Protect-the-Moon goes here: i.e. http://www.mydomain.com",
+    "license": "What license Protect-the-Moon uses goes here: i.e. https://opensource.org/licenses/Apache-2.0 Or https://opensource.org/licenses/MIT etc.",
+    "display_name": "Protect-the-Moon",
+    "summary": "A short description of Protect-the-Moon.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "Protect-the-Moon"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de",
+    "external_subdirectories": [
+        "Gem"
+    ],
+    "restricted": "Protect-the-Moon",
+    "gem_names": [
+        "Protect-the-Moon",
+        "Atom",
+        "AudioSystem",
+        "AWSCore",
+        "CameraFramework",
+        "Compression",
+        "DebugDraw",
+        "DiffuseProbeGrid",
+        "EditorPythonBindings",
+        "EMotionFX",
+        "GameState",
+        "ImGui",
+        "LandscapeCanvas",
+        "LyShine",
+        "PhysX",
+        "PrimitiveAssets",
+        "PrefabBuilder",
+        "SaveData",
+        "ScriptCanvasPhysics",
+        "ScriptEvents",
+        "StartingPointInput",
+        "TextureAtlas",
+        "WhiteBox"
+    ]
+}

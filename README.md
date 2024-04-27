@@ -45,8 +45,6 @@ https://user-images.githubusercontent.com/87207603/235952495-29eacd36-fbbf-4fcc-
 
 ![SplashScreen](https://user-images.githubusercontent.com/87207603/235951250-4684e278-e83d-462c-95ab-ce1d51d2026d.jpg)
 
-![screeshot](screenshot-1.png?raw=true)
-
 ## License
 
 For terms please see the LICENSE\*.TXT files at the root of this repository.
